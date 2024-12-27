@@ -17,8 +17,8 @@ const Post = () => {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Shuvankor Hazra"
-        subheader="October 21, 2025"
+        title="Rishov Hazra"
+        subheader="May 20, 2025"
       />
       <CardMedia
         component="img"

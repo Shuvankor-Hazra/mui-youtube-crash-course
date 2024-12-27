@@ -1,7 +1,9 @@
-import { AccountBox, Person, Settings, Storefront } from "@mui/icons-material";
+import { AccountBox, Settings, Storefront } from "@mui/icons-material";
 import ArticleIcon from "@mui/icons-material/Article";
 import BedtimeIcon from "@mui/icons-material/Bedtime";
 import HomeIcon from "@mui/icons-material/Home";
+import GroupIcon from '@mui/icons-material/Group';
+import Diversity3Icon from '@mui/icons-material/Diversity3';
 import {
   Box,
   List,
@@ -37,7 +39,7 @@ const SideBar = ({ mode, setMode }) => {
           <ListItem disablePadding>
             <ListItemButton component="a" href="#groups">
               <ListItemIcon>
-                <HomeIcon />
+                <GroupIcon />
               </ListItemIcon>
               <ListItemText primary="Groups" />
             </ListItemButton>
@@ -53,7 +55,7 @@ const SideBar = ({ mode, setMode }) => {
           <ListItem disablePadding>
             <ListItemButton component="a" href="#friends">
               <ListItemIcon>
-                <Person />
+                <Diversity3Icon />
               </ListItemIcon>
               <ListItemText primary="Friends" />
             </ListItemButton>

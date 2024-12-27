@@ -18,7 +18,7 @@ const App = () => {
     <ThemeProvider theme={darkTheme}>
       <Box bgcolor={"background.default"} color={"text.primary"}>
         <NavBar />
-        <Stack direction='row' spacing={2} justifyContent='space-between'>
+        <Stack direction='row' justifyContent='space-between'>
           <SideBar mode={mode} setMode={setMode} />
           <Feed />
           <RightBar />
