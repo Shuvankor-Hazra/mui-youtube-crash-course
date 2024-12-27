@@ -11,7 +11,6 @@ import {
   ListItemText,
   Switch,
 } from "@mui/material";
-import { dark } from "@mui/material/styles/createPalette";
 import React from "react";
 
 const SideBar = ({ mode, setMode }) => {
