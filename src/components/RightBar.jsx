@@ -1,3 +1,4 @@
+import { Scale } from "@mui/icons-material";
 import { Avatar, AvatarGroup, Box, Divider, ImageList, ImageListItem, List, ListItem, ListItemAvatar, ListItemText, Typography } from "@mui/material";
 import React from "react";
 
@@ -12,42 +13,122 @@ const RightBar = () => {
         </Typography>
         <AvatarGroup max={9}>
           <Avatar
+            sx={{
+              cursor: "pointer",
+              transition: "all 0.2s",
+
+              "&:hover": {
+                transform: "scale(1.1)",
+              }
+            }}
             alt="Rems Sharp"
             src="https://i.ibb.co.com/JqwttqZ/sci-fi.jpg"
           />
           <Avatar
+            sx={{
+              cursor: "pointer",
+              transition: "all 0.2s",
+
+              "&:hover": {
+                transform: "scale(1.1)",
+              }
+            }}
             alt="Travis Howard"
             src="https://i.ibb.co.com/SJ7GjQn/art1.jpg"
           />
           <Avatar
+            sx={{
+              cursor: "pointer",
+              transition: "all 0.2s",
+
+              "&:hover": {
+                transform: "scale(1.1)",
+              }
+            }}
             alt="Cindy Baker"
             src="https://i.ibb.co.com/r5889cS/real-es1.jpg"
           />
           <Avatar
+            sx={{
+              cursor: "pointer",
+              transition: "all 0.2s",
+
+              "&:hover": {
+                transform: "scale(1.1)",
+              }
+            }}
             alt="Agnes Walker"
             src="https://i.ibb.co.com/hL9xPCq/thriller.jpg"
           />
           <Avatar
+            sx={{
+              cursor: "pointer",
+              transition: "all 0.2s",
+
+              "&:hover": {
+                transform: "scale(1.1)",
+              }
+            }}
             alt="Rems Sharp"
-          // src="https://i.ibb.co.com/JqwttqZ/sci-fi.jpg"
+            src="https://i.ibb.co.com/JqwttqZ/sci-fi.jpg"
           />
           <Avatar
+            sx={{
+              cursor: "pointer",
+              transition: "all 0.2s",
+
+              "&:hover": {
+                transform: "scale(1.1)",
+              }
+            }}
             alt="Trevor Henderson"
             src="https://i.ibb.co.com/H4gH2VR/blog-1.jpg"
           />
           <Avatar
+            sx={{
+              cursor: "pointer",
+              transition: "all 0.2s",
+
+              "&:hover": {
+                transform: "scale(1.1)",
+              }
+            }}
             alt="Travis Howard"
             src="https://i.ibb.co.com/SJ7GjQn/art1.jpg"
           />
           <Avatar
+            sx={{
+              cursor: "pointer",
+              transition: "all 0.2s",
+
+              "&:hover": {
+                transform: "scale(1.1)",
+              }
+            }}
             alt="Cindy Baker"
             src="https://i.ibb.co.com/r5889cS/real-es1.jpg"
           />
           <Avatar
+            sx={{
+              cursor: "pointer",
+              transition: "all 0.2s",
+
+              "&:hover": {
+                transform: "scale(1.1)",
+              }
+            }}
             alt="Agnes Walker"
             src="https://i.ibb.co.com/hL9xPCq/thriller.jpg"
           />
           <Avatar
+            sx={{
+              cursor: "pointer",
+              transition: "all 0.2s",
+
+              "&:hover": {
+                transform: "scale(1.1)",
+              }
+            }}
             alt="Trevor Henderson"
             src="https://i.ibb.co.com/H4gH2VR/blog-1.jpg"
           />
@@ -59,38 +140,86 @@ const RightBar = () => {
           Popular Photos
         </Typography>
         <ImageList cols={3} rowHeight={100} gap={5}>
-          <ImageListItem>
+          <ImageListItem
+            sx={{
+              cursor: "pointer",
+              transition: "all 0.2s",
+
+              "&:hover": {
+                transform: "scale(0.95)",
+              }
+            }}>
             <img
               src="https://i.ibb.co.com/H4gH2VR/blog-1.jpg"
               alt=""
             />
           </ImageListItem>
-          <ImageListItem>
+          <ImageListItem
+            sx={{
+              cursor: "pointer",
+              transition: "all 0.2s",
+
+              "&:hover": {
+                transform: "scale(0.95)",
+              }
+            }}>
             <img
               src="https://i.ibb.co.com/hL9xPCq/thriller.jpg"
               alt=""
             />
           </ImageListItem>
-          <ImageListItem>
+          <ImageListItem
+            sx={{
+              cursor: "pointer",
+              transition: "all 0.2s",
+
+              "&:hover": {
+                transform: "scale(0.95)",
+              }
+            }}>
             <img
               src="https://i.ibb.co.com/r5889cS/real-es1.jpg"
               alt=""
             />
           </ImageListItem>
-          <ImageListItem>
+          <ImageListItem
+            sx={{
+              cursor: "pointer",
+              transition: "all 0.2s",
+
+              "&:hover": {
+                transform: "scale(0.95)",
+              }
+            }}>
             <img
               src="https://i.ibb.co.com/SJ7GjQn/art1.jpg"
               alt=""
             />
           </ImageListItem>
 
-          <ImageListItem>
+          <ImageListItem
+            sx={{
+              cursor: "pointer",
+              transition: "all 0.2s",
+
+              "&:hover": {
+                transform: "scale(0.95)",
+              }
+            }}>
             <img
               src="https://i.ibb.co.com/JqwttqZ/sci-fi.jpg"
               alt=""
             />
           </ImageListItem>
-          <ImageListItem>
+          <ImageListItem
+            sx={{
+              cursor: "pointer",
+              transition: "all 0.2s",
+
+              "&:hover": {
+                transform: "scale(0.95)",
+              }
+            }}>
             <img
               src="https://i.ibb.co.com/H4gH2VR/blog-1.jpg"
               alt=""
@@ -105,7 +234,14 @@ const RightBar = () => {
         </Typography>
         <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
           <ListItem alignItems="flex-start">
-            <ListItemAvatar>
+            <ListItemAvatar sx={{
+              cursor: "pointer",
+              transition: "all 0.2s",
+
+              "&:hover": {
+                transform: "scale(1.1)",
+              }
+            }}>
               <Avatar alt="Rems Sharp" src="https://i.ibb.co.com/H4gH2VR/blog-1.jpg" />
             </ListItemAvatar>
             <ListItemText
@@ -126,7 +262,15 @@ const RightBar = () => {
           </ListItem>
           <Divider variant="inset" component="li" />
           <ListItem alignItems="flex-start">
-            <ListItemAvatar>
+            <ListItemAvatar
+              sx={{
+                cursor: "pointer",
+                transition: "all 0.2s",
+
+                "&:hover": {
+                  transform: "scale(1.1)",
+                }
+              }}>
               <Avatar alt="Travis Howard" src="https://i.ibb.co.com/JqwttqZ/sci-fi.jpg" />
             </ListItemAvatar>
             <ListItemText
@@ -147,7 +291,15 @@ const RightBar = () => {
           </ListItem>
           <Divider variant="inset" component="li" />
           <ListItem alignItems="flex-start">
-            <ListItemAvatar>
+            <ListItemAvatar
+              sx={{
+                cursor: "pointer",
+                transition: "all 0.2s",
+
+                "&:hover": {
+                  transform: "scale(1.1)",
+                }
+              }}>
               <Avatar alt="Cindy Baker" src="https://i.ibb.co.com/hL9xPCq/thriller.jpg" />
             </ListItemAvatar>
             <ListItemText

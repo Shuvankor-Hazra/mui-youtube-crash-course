@@ -51,7 +51,7 @@ const NavBar = () => {
     <AppBar position="sticky">
       <StyledToolBar>
         {/* Logo */}
-        <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
+        <Typography variant="h4" sx={{ display: { xs: "none", sm: "block" } }}>
           RISHOV
         </Typography>
         <SettingsEthernetIcon sx={{ display: { xs: "block", sm: "none" } }} />
@@ -64,15 +64,15 @@ const NavBar = () => {
         {/* Icons */}
         <Icons>
           <Badge badgeContent={4} color="error">
-            <Mail sx={{cursor: "pointer"}} />
+            <Mail sx={{ cursor: "pointer", fontSize: 30 }} />
           </Badge>
 
           <Badge badgeContent={2} color="error">
-            <Notifications sx={{cursor: "pointer"}} />
+            <Notifications sx={{ cursor: "pointer", fontSize: 30 }} />
           </Badge>
 
           <Avatar
-            sx={{ width: "30px", height: "30px", cursor: "pointer" }}
+            sx={{ width: "35px", height: "35px", cursor: "pointer" }}
             src="https://i.ibb.co.com/YdMJvjX/prothomalo-english-2024-09-26-to3kv893-GYQARW4-WEAAMRr-T.jpg"
             onClick={(e) => setOpen(true)}
           />
@@ -84,7 +84,7 @@ const NavBar = () => {
             sx={{ width: 30, height: 30 }}
             src="https://i.ibb.co.com/YdMJvjX/prothomalo-english-2024-09-26-to3kv893-GYQARW4-WEAAMRr-T.jpg"
           />
-          <Typography variant="body2">John Dev</Typography>
+          <Typography variant="body2">Johnny Depp</Typography>
         </UserBox>
       </StyledToolBar>
 
